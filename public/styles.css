@@ -60,7 +60,7 @@ body{
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: fixed;
-  background-color: #ADCAE9;
+  background-color: #D2DEEB;
 }
 
 .main-grid{
@@ -82,7 +82,6 @@ body{
   filter: contrast(120%) brightness(100%);
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), linear-gradient(180deg, #D7E4EE 0%, #EAEAEA 20.83%, #B9B9B9 40.1%, #8E9499 58.33%, #878B8D 68.75%, #707070 78.12%, #576066 92.19%, #727272 100%),
     url(./images/noise.svg);
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.02); 
 }
 
 .metal-horizontal--between{
@@ -99,7 +98,7 @@ body{
   display: flex;
   justify-content: space-between;
   height: 32px;
-  box-shadow: inset 1px 0.5px 5px rgba(78,78,78,0.5);
+  box-shadow: 1px 0.5px 5px rgba(78,78,78,0.1);
   background: linear-gradient(280.56deg, rgba(0, 0, 0, 0.2) -133.1%, rgba(0, 0, 0, 0) 91.59%), #F8C923
   url(./images/wood-pattern.png);
 }
@@ -151,7 +150,7 @@ li{
   min-height: 180px;
   padding: 10px;
   overflow: scroll;
-  box-shadow: inset 1px 0.5px 5px rgba(78,78,78,0.6);
+  box-shadow: 1px 0.5px 5px rgba(78,78,78,0.1);
   filter: contrast(170%) brightness(105%);
   background:
     linear-gradient(120deg, rgba(197,197,197,0.9), rgba(174,175,185,0.5)),
@@ -164,7 +163,7 @@ li{
   margin-bottom: 10px;
   overflow: scroll;
   filter: contrast(170%) brightness(105%);
-  box-shadow: inset 1px 0.5px 5px rgba(78,78,78,0.6);
+  box-shadow: 1px 0.5px 5px rgba(78,78,78,0.1);
   background:
     linear-gradient(120deg, rgba(197,197,197,0.9), rgba(174,175,185,0.5)),
 	  linear-gradient(341deg, rgba(78,78,78,0.9), rgba(156,156,183,0.5)),
@@ -176,7 +175,7 @@ li{
   margin-bottom: 10px;
   overflow: scroll;
   filter: contrast(170%) brightness(115%);
-  box-shadow: inset 1px 0.5px 5px rgba(78,78,78,0.6);
+  box-shadow: 1px 0.5px 5px rgba(78,78,78,0.1);
   background:
     linear-gradient(120deg, rgba(167,167,167,0.9), rgba(174,175,185,0.5)),
 	  linear-gradient(341deg, rgba(78,78,78,0.9), rgba(50,50,50,0.5)),
@@ -187,7 +186,7 @@ li{
   height: 80px;
   padding: 10px;
   overflow: scroll;
-  box-shadow: inset 1px 0.5px 5px rgba(78,78,78,0.6);
+  box-shadow: 1px 0.5px 5px rgba(78,78,78,0.1);
   filter: contrast(170%) brightness(120%);
   background:
     linear-gradient(120deg, rgba(197,197,197,0.9), rgba(174,175,185,0.5)),
@@ -200,6 +199,7 @@ li{
   padding: 10px;
   overflow: scroll;
   color: white;
+  box-shadow: 1px 0.5px 5px rgba(78,78,78,0.1);
   background: linear-gradient(338.59deg, #000000 -1.84%, #434343 174.71%);
 }
 
@@ -256,6 +256,10 @@ a:hover{
 
 .spacer-10{
   height: 10px;
+}
+
+.spacer-15{
+  height: 15px;
 }
 
 .spacer-60{
